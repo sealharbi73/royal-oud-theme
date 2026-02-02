@@ -1,0 +1,33 @@
+{
+  "id": "royal-oud-theme",
+  "slug": "royal-oud",
+  "version": "1.0.0",
+  "type": "storefront",
+
+  "theme_name": "Royal Oud",
+  "author": "سالم الحربي",
+
+  "repo_url": "https://github.com/sealharbi73/royal-oud-theme",
+  "support_url": "mailto:sealharbi73@gmail.com",
+
+  "description": "قالب فاخر لمتاجر العطور والبخور بتصميم أنيق وتجربة مستخدم راقية، مع إمكانية تخصيص الأقسام والمنتجات بسهولة.",
+
+  "settings": [
+    {
+      "type": "string",
+      "id": "home_banner",
+      "label": "رابط البانر الرئيسي",
+      "format": "text",
+      "default": "assets/images/banner.jpg"
+    }
+  ],
+
+  "features": [
+    "component-fixed-banner",
+    "component-featured-products",
+    "component-products-slider",
+    "component-latest-products"
+  ],
+
+  "components": []
+}
